@@ -17,6 +17,9 @@ namespace DataAccessLayer.Concrete
         {
             optionsBuilder.UseSqlServer("server=.;database=LibraryAutomation;trusted_connection=true;");
         }
+
+        
+
         public DbSet<About> Abouts {get; set;}
         public DbSet<Category> Categories { get; set; }
         public DbSet<Contact> Contacts { get; set; }

@@ -176,6 +176,7 @@
     <Compile Include="Abstract\IWriterData.cs" />
     <Compile Include="Concrete\Context.cs" />
     <Compile Include="Concrete\Repositories\CategoryRepository.cs" />
+    <Compile Include="Concrete\Repositories\GenericRepository.cs" />
     <Compile Include="Migrations\20230510135437_setupdatabase.cs" />
     <Compile Include="Migrations\20230510135437_setupdatabase.designer.cs">
       <DependentUpon>20230510135437_setupdatabase.cs</DependentUpon>
