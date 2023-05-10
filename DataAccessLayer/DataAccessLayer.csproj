@@ -167,7 +167,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\IAboutData.cs" />
+    <Compile Include="Abstract\ICategoryData.cs" />
+    <Compile Include="Abstract\IContactData.cs" />
+    <Compile Include="Abstract\IContentData.cs" />
+    <Compile Include="Abstract\IHeadingData.cs" />
+    <Compile Include="Abstract\IRepository.cs" />
+    <Compile Include="Abstract\IWriterData.cs" />
     <Compile Include="Concrete\Context.cs" />
+    <Compile Include="Concrete\Repositories\CategoryRepository.cs" />
     <Compile Include="Migrations\20230510135437_setupdatabase.cs" />
     <Compile Include="Migrations\20230510135437_setupdatabase.designer.cs">
       <DependentUpon>20230510135437_setupdatabase.cs</DependentUpon>
